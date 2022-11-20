@@ -1,0 +1,158 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  background-color: rgb(36, 235, 225);
+}
+.Registrer-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../src/componentes/imagenes/halconFondo.png");
+  background-size: 43rem;
+}
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../src/componentes/imagenes/halconFondo.png");
+  background-size: 43rem;
+}
+.Espacio-botones{
+  padding: 16px 32px;
+
+}
+
+.fondito{
+  
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding: 10px;
+  background-color: white;
+  padding-bottom: 20px;
+  width: 420px;
+  border-radius: 10px;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: white;
+}
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.Auth-form-title {
+  font-style: Copperplate;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+.Home-form-title {
+  font-style: Copperplate;
+  text-align: center;
+  margin-bottom: 10em;
+  font-size: 30px;
+  color: rgb(194, 26, 76);
+  font-weight: 800;
+}
+.Home-form-container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50px;
+  
+}
+.contenido {
+  border-style: 50 rgb(31, 18, 218);
+  height: 1;
+  width: 1;
+  background-color: red;
+  justify-content: center;
+  align-content: center;
+}
+Header {
+  justify-content: Center;
+  
+ } 
+ /* .navbar-brand {
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
+ } */
+ .Header-form-container {
+  display: inline;
+ }
+.frase {
+  text-align: center;
+  font-size: xx-large;
+  background-color: rgba(197, 108, 7, 0.733);
+  width: 900px;
+  height: 5;
+  margin: auto;
+  border-radius: 30px;
+}
+ 
+.titulo {
+  --text-align: center;
+  font-family: cursive;
+  margin-bottom: 6%;        
+}
+.fotos {
+  display: flex;
+}
